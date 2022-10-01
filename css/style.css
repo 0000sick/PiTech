@@ -1,0 +1,220 @@
+
+body{
+	margin: auto 0;
+	
+}
+
+.main-nav{
+	display: flex;
+	list-style: none;
+	font-size: 0.8em;
+	margin: 0;
+	height: 10vh;
+	font-family: Times New Roman;
+
+}
+
+@media only screen and ( max-width: 600px){
+	.main-nav{
+		font-size: 0.5em;
+		padding: 0;
+	}
+
+}
+
+@media only screen and ( max-width: 600px){
+	.main-nav2{
+		font-size: 0.5em;
+		padding: 0;
+	}
+
+}
+
+@media only screen and ( max-width: 700px){
+	.left, .image_2 ,.image_1, .design{
+		font-size: 0.5em;
+		padding: 0;
+		margin: 0;
+	}
+
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	height: 90vh;
+}
+
+.left{
+	background-color: #DEDEDE;
+	width: 32vw;
+	display: flex;
+	font-size: 0.7em;
+}
+
+.right{
+	background-image: url(iphone2.jpg);
+	background-size: cover;
+	width: 66.8vw;
+}
+
+li{
+	padding: 20px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.push{
+	margin-left: auto;
+	margin: 0px;
+
+}
+
+.push1{
+	font-size: 40px;
+	margin-top: -23px;	
+}
+
+.push2{
+	margin-left: -40px; 
+}
+
+a{
+	color: black;
+}
+
+.green{
+	background: #DEDEDE;
+	/*width: 100vw;*/
+}
+
+
+.grid-wrapper{
+ 	padding-top: 150px;
+}
+
+.ordenar{
+	list-style: none;
+	font-size: 0.8em;
+	text-align: right;
+	font-family: Times New Roman;
+	font-weight: bold;
+	font-style: italic;	
+}
+
+.teste{
+	border: 1px solid #CCC;
+	display: flex;
+	padding: 2px;
+	margin: 10px;
+	border-radius: 4px;
+	height: 3vh;
+	margin-left: auto;
+	margin-top: 16px;
+}
+
+.pesquisar{
+	border: 0px;
+	width: 15vw;
+}
+
+.redes-sociais {
+	display: flex;
+	margin-top: auto;
+	margin-right: auto;
+}       
+       
+.image{
+	height: 3vh;
+	width: 3vw;
+	margin: 0px -4px 0px -4px;
+}
+
+.read{
+	margin-top: 100px;
+	height: 70vh;
+	width: 20vw;
+}
+
+.image_1{
+	width: 4vw;
+	height: 3vh;
+	margin-right: 7px;
+	border: 1px solid black;
+}
+
+.image_2{
+	width: 4vw;
+	height: 3vh;
+	margin-left: 20px;
+	border: 1px solid black;
+}
+
+.conter{
+	list-style: none;
+	display: flex;
+	margin-left: -40px;
+	margin-top: auto;
+	
+}
+
+.design{
+	border-bottom: 2px solid;
+	margin-top: -35px;
+	margin-bottom: 14px;
+	display: flex;
+	width: 0.1vw;
+}
+
+
+.Botao{
+	border: 1px solid black;
+}
+
+.container2{
+	display: grid;
+	margin-right: 25px;
+	margin-top: 25px;
+	grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.box > .image_3 {
+	width: 100%;
+	height: 100%;
+}
+
+
+ 	
+.box{
+	border: 1px solid #bbb;
+	padding: 20px;
+	margin: 10px;
+	
+}
+
+.marca{
+	font-style: italic;
+	font-weight: bold;
+	font-size: 450%;
+	font-family: Times New Roman;
+	height: 10vh;
+	width: 12vw;
+	margin-right: 20px;
+}
+
+.nome_produto{
+	margin-right: 150px;
+	height: 5vh;
+	border: 1px solid black;
+
+
+} 
+
+.meta{
+	font-size: 150%;
+	font-family: Times New Roman;
+	font-weight: bold;
+}

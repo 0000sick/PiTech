@@ -1,0 +1,19 @@
+/*Selector{
+	Property: value ;
+
+}
+*/
+body{
+	background-image: url(checkimage.jpg);
+	background-size: cover;
+}
+
+p{
+	color: pink;
+}
+
+h2{
+	color: red;
+	text-align: center;
+	border: 5px solid purple;
+}
